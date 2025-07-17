@@ -31,3 +31,9 @@ input{
     height: 34px;
     font-size: 18px;
 }
+
+@media (max-width:768px){
+    input{
+        width: 320px;
+    }
+}

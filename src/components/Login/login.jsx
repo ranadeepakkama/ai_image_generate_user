@@ -20,7 +20,7 @@ const Login = () => {
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, currentUser => {
             if(currentUser){
-                navigate('/')
+                navigate('/home')
             }
         })
         return () => unsubscribe()
