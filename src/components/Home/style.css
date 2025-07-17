@@ -1,0 +1,11 @@
+.main-component{
+    margin: 10px;
+    padding: 10px;
+    height: 100vh;
+    text-align: center;
+}
+
+.image-component{
+    margin-top: 40px;
+    height: 55vh;
+}
