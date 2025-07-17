@@ -123,7 +123,7 @@ const ImageUploadAndConvert = () => {
         <>
           <h2>Ai-Styled Preview</h2>
           <div className='img-container'>
-            <img className='image' src={previewImage} alt='ai generted' width='410' height='290'/>
+            <img className='image' src={previewImage} alt='ai generted'/>
           </div>
           <div className='container'>
               <div className='butn-container'>
