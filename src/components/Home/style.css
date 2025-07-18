@@ -10,3 +10,26 @@
     margin-top: 40px;
     height: 55vh;
 }
+
+ul, .example-prompt-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.example-prompt-container{
+    padding-left: 10px;
+}
+.example-header{
+    text-decoration: underline;
+}
+
+@media (max-width: 765px){
+    ul{
+        text-align: start;
+        font-size: 13px;
+    }
+    .example-header{
+        padding-left: 5px;
+    }
+}
